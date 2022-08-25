@@ -1,0 +1,60 @@
+#banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+#banner .text{
+    background-color: white;
+    color: red;
+    width: 30%;
+    padding: 20px;
+    top: 120%;
+    transform: translateY(120%);
+}
+
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 60%;
+    transform: translateY(60%);
+}
+
+footer .body .information{
+    top: 680%;
+    transform: translateY(680%);
+}
+
+footer .body .information .info1,footer .body .information .info2,footer .body .information .info3{
+    display: flex;
+}
+
+footer .body .information .info1 i,footer .body .information .info2 i,footer .body .information .info3 i{
+    font-size: 45px;
+    color: #ff6600;
+    margin-right: 20px;
+}
+
+footer .body .information .info2 i{
+    font-size: 30px;
+}
+
+footer .body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 70%;
+    transform: translateY(-70%);
+}
+
+footer .body .download{
+    top: 1240%;
+    transform: translateY(1240%);
+}
+
+footer .body .icons{
+    top: 1350%;
+    transform: translateY(1350%);
+}
