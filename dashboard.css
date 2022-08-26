@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar{
+    background-color: rgb(171, 152, 248);
+    color: #ff3446;
+    position: fixed;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li a, .sidebar ul li i{
+    padding: 10px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li i{
+    font-size: 30px;
+}
+
+main h2{
+    left: 150%;
+    transform: translateX(150%);
+}
+
+main nav{
+    width: 30%;
+}
+
+main .cards{
+    left: 1%;
+    transform: translateX(1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+main .cards .card1{
+    background-color: #bd63a8;
+    width: 15%;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+main .cards .card1 .sim{
+    width: 10%;
+    height: 20px;
+    background-color: burlywood;
+}
+
+main .cards .card2{
+    background-color: #ff3446;
+    width: 15%;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+main .cards .card2 .sim{
+    width: 10%;
+    height: 20px;
+    background-color: burlywood;
+}
+
+main #team .icons{
+    left: 1%;
+    transform: translateX(1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
